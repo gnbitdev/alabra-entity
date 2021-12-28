@@ -1,0 +1,10 @@
+/nbproject/private/
+/vendor/
+nbproject
+phpunit.xml
+vendor
+phpcs.xml
+doc.sh
+.idea
+composer.lock
+docker-compose.yml
