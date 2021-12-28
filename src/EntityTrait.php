@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace AlabraEntity;
+namespace Alabra\Entity;
 
 use Entity\Exception\InvalidArgumentException;
 use ArrayIterator;
@@ -30,7 +30,7 @@ trait EntityTrait
      * Returns Entity in json format
      * @return json string
      */
-    public function toJson()
+    public function toJson(): string
     {
         return json_encode($this->toArray());
     }

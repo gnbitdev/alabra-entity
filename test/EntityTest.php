@@ -33,11 +33,5 @@ class EntityTest extends TestCase
         self::assertEquals('A', $this->myEntity->val1);
     }
 
-    public function testOther()
-    {
-        //print_r(111);
-        print_r($this->myEntity->current());
-        exit;
-        self::assertEquals('A', $this->myEntity->current());
-    }
+   
 }
