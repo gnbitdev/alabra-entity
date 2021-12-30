@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace Alabra\Entity;
 
-use Entity\Exception\InvalidArgumentException;
+use Alabra\Entity\Exception\InvalidArgumentException;
 use ArrayIterator;
 use Traversable;
 
