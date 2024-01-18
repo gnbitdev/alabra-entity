@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Alabra\EntityTest;
+namespace Alabra\EntityTest\Entity;
 
 use Alabra\Entity\EntityInterface;
 use Alabra\Entity\EntityTrait;
 
-class MyEntity implements EntityInterface
+class MyEntityPHP7 implements EntityInterface
 {
     use EntityTrait;
 

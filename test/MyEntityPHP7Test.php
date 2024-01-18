@@ -3,15 +3,18 @@
 namespace Alabra\EntityTest;
 
 use PHPUnit\Framework\TestCase;
+use Alabra\EntityTest\Entity\MyEntityPHP7;
 
-class EntityTest extends TestCase
+class MyEntityPHP7Test extends TestCase
 {
 
     private $myEntity;
 
-    protected function setUp()
+    protected function setUp(): void
     {
-        $this->myEntity = new MyEntity('A', 'B');
+        parent::setUp();
+
+        $this->myEntity = new MyEntityPHP7('A', 'B');
     }
 
     public function testToArray()
@@ -32,6 +35,4 @@ class EntityTest extends TestCase
     {
         self::assertEquals('A', $this->myEntity->val1);
     }
-
-   
 }

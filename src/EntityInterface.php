@@ -5,7 +5,18 @@ namespace Alabra\Entity;
 
 interface EntityInterface
 {
-    public function toArray(): array;
 
-    public function toJson(): string;
+    /**
+     *
+     * @param callable $transformer
+     * @return array<mixed>
+     */
+    public function toArray(callable $transformer = null): array;
+
+    /**
+     *
+     * @param callable $transformer
+     * @return string
+     */
+    public function toJson(callable $transformer = null): string;
 }
