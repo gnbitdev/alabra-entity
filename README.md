@@ -8,7 +8,7 @@ You can install this package via [Composer](https://getcomposer.org/):
 
 ```bash
 composer require alabra/alabra-entity
-
+```
 
 ## Usage
 ### Basic Usage

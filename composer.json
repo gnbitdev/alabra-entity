@@ -1,8 +1,15 @@
 {
     "name": "gnbit/alabra-entity",
-    "description": "entity",
+    "description": "entity class",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "DDD",
+        "domain driven design",
+        "clean architecture",
+        "middleware",
+        "entity"
+    ],
     "authors": [
         {
             "name": "Benjamín Gonzales",
@@ -10,7 +17,7 @@
             "homepage": "http://www.gnbit.com"
         }
     ],
-    "homepage": "https://github.com/gnbit/alabra-entity",
+    "homepage": "https://github.com/gnbitdev/alabra-entity",
     "require": {
         "php": "^7.4 || ^8.0 || ^8.1 || ^8.2 || ^8.3"
     },
